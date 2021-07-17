@@ -224,6 +224,12 @@
   line-height: 61px;
 }
 
+.footer_icon ul li a .fas {
+  font-size: 20px;
+  color: #000;
+  line-height: 61px;
+}
+
 .footer_icon ul li a {
   width: 60px;
   height: 60px;
@@ -244,31 +250,31 @@
   box-shadow: 0px 0px 20px #4064ad;
 }
 
-.footer_icon ul li a:hover .fa-facebook-f {
+.footer_icon ul li a:hover .fa-instagram {
   color: #4064ad;
 }
 
 .footer_icon ul li a:hover:nth-child(2) {
+  box-shadow: 0px 0px 20px rgb(97, 12, 194);
+}
+
+.footer_icon ul li a:hover .fa-basketball-ball {
+  color: rgb(97, 12, 194);
+}
+
+.footer_icon ul li a:hover:nth-child(3) {
+  box-shadow: 0px 0px 20px #4064ad;
+}
+
+.footer_icon ul li a:hover .fa-twitter {
+  color: #4064ad;
+}
+
+.footer_icon ul li a:hover:nth-child(4) {
   box-shadow: 0px 0px 20px red;
 }
 
 .footer_icon ul li a:hover .fa-youtube {
   color: red;
-}
-
-.footer_icon ul li a:hover:nth-child(3) {
-  box-shadow: 0px 0px 20px red;
-}
-
-.footer_icon ul li a:hover .fa-google-plus-g {
-  color: red;
-}
-
-.footer_icon ul li a:hover:nth-child(4) {
-  box-shadow: 0px 0px 20px #1da362;
-}
-
-.footer_icon ul li a:hover .fa-google-drive {
-  color: #1da362;
 }
 /* ========footer part end========= */
