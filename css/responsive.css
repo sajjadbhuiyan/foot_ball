@@ -29,5 +29,98 @@
     grid-template-columns: 100%;
   }
 
+  /* ======card part end====== */
+
   /* ======copa part start====== */
+
+  .copa_parent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .copa_left {
+    word-wrap: break-word;
+  }
+
+  .copa_left h1 {
+    font-size: 30px;
+    line-height: 40px;
+    padding: 80px 0 0 10px;
+  }
+
+  .copa_butt {
+    margin-left: 10px;
+  }
+
+  .copa_left p {
+    line-height: 22px;
+    margin: 0 0 20px 10px;
+  }
+
+  .copa_left p > br {
+    display: none;
+  }
+
+  .copa_right img {
+    width: 293px;
+    height: 227px;
+    padding: 20px 11px 50px 11px;
+  }
+
+  /* ======copa part end====== */
+
+  /* ======UEFA European Championship part start======= */
+  .uefa_parent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .uefa_left {
+    word-wrap: break-word;
+  }
+
+  .uefa_left h1 {
+    font-size: 30px;
+    line-height: 40px;
+    padding: 0px 0 0 10px;
+  }
+
+  .uefa_butt {
+    margin-left: 10px;
+  }
+
+  .uefa_left p {
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0 0 30px 10px;
+  }
+
+  .uefa_left p > br {
+    display: none;
+  }
+
+  .uefa_right img {
+    width: 293px;
+    height: 227px;
+    padding: 20px 11px 50px 11px;
+  }
+  /* ======UEFA European Championship part end========= */
+
+  /* ======footer part start======== */
+
+  .footer {
+    margin: 81px ​0px 50px 0px;
+  }
+  .foot_logo {
+    width: 80%;
+  }
+
+  .footer_icon ul li a .fab {
+    font-size: 16px;
+    line-height: 41px;
+  }
+
+  .footer_icon ul li a {
+    width: 40px;
+    height: 40px;
+  }
+  /* ========footer part end========= */
 }
